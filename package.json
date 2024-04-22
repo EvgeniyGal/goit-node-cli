@@ -1,0 +1,17 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:list": "node index.js -a list"
+  },
+  "author": "Yevgen Galamaga <evgeniygal@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "uuid": "^9.0.1"
+  }
+}
