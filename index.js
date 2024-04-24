@@ -6,8 +6,6 @@ import {
 } from "./contacts.js";
 import { program } from "commander";
 
-console.log(listContacts());
-
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
